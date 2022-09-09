@@ -19,5 +19,5 @@ def test_successful(browser_size):
 
 
 def test_unsuccessful(browser_size):
-    browser.element('[name=q]').type('selenium').press_enter()
+    browser.element('[name=q]').type('444r33efgh6667jjnbvff!@@@').press_enter()
     browser.element('[id=search]').should(have.no.text('Selene - User-oriented Web UI browser tests in Python'))
